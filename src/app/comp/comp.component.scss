@@ -1,0 +1,29 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 800px;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 24px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+button {
+    background-color: bisque;
+    border: 0;
+    padding: 8px;
+    border-radius: 4px;
+}

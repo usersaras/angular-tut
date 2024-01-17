@@ -1,0 +1,10 @@
+<p>about works! {{ param }}</p>
+
+<!-- {% comment %} <div *ngIf="isSubmitted">
+    <app-message-details *ngFor='let m of messages; 
+    let i=index' [message]="m" [index]="i" (delete)="deleteMessage(i)"></app-message-details>
+</div> {% endcomment %} -->
+
+<div *ngFor='let datum of data'>
+    <p>{{datum.category}}</p>
+</div>
